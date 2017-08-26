@@ -62,16 +62,19 @@ var svg = d3.select("body").append("svg")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("../json/purchase_power.json", function(error, data) {
+
+// load the data
+d3.json("../json/Purchase.json", function(error, data) {
 
     data.forEach(function(d) {
-        d.country = d.country;
-        d.Purchase_Power = +d.Purchase_Power;
+        d.Country = d.Country;
+        d.PurchasePower = +d.PurchasePower;
     });
   
   // scale the range of the data
-  x.domain(data.map(function(d) { return d.country; }));
-  y.domain([0, d3.max(data, function(d) { return d.Purchase_Power; })]);
+  x.domain(data.map(function(d) { return d.Country; }));
+  y.domain([0, d3.max(data, function(d) { return d.PurchasePower; })]);
+
   // add axis
   svg.append("g")
       .attr("class", "x axis")
@@ -91,17 +94,22 @@ d3.json("../json/purchase_power.json", function(error, data) {
       .attr("y", 5)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("Purchasing Power");
+      .text("Population (Millions) 2013");
+
+
   // Add bar chart
   svg.selectAll("bar")
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.country); })
+      .attr("x", function(d) { return x(d.Country); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.Purchase_Power); })
-      .attr("height", function(d) { return height - y(d.Purchase_Power); });
+      .attr("y", function(d) { return y(d.PurchasePower); })
+      .attr("height", function(d) { return height - y(d.PurchasePower); });
+
 });
 </script>
+
+
 </body>
 </html>

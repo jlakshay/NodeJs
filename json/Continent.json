@@ -1,0 +1,32 @@
+[
+  {
+    "Continent": "Asia",
+    "AggregatePopulation": 2359,
+    "AggregateGdp": 12895.8
+  },
+  {
+    "Continent": "Africa",
+    "AggregatePopulation": 159.5,
+    "AggregateGdp": 2123.5
+  },
+  {
+    "Continent": "Australia",
+    "AggregatePopulation": 89,
+    "AggregateGdp": 5853
+  },
+  {
+    "Continent": "North America",
+    "AggregatePopulation": 318.6666666666667,
+    "AggregateGdp": 3959.6666666666665
+  },
+  {
+    "Continent": "South America",
+    "AggregatePopulation": 925.5,
+    "AggregateGdp": 37225.5
+  },
+  {
+    "Continent": "Europe",
+    "AggregatePopulation": 326,
+    "AggregateGdp": 10282.8
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Year": 2010,
+    "PopulationGrowth": 23,
+    "PurchaseGrowth": 985
+  },
+  {
+    "Year": 2011,
+    "PopulationGrowth": 195,
+    "PurchaseGrowth": 3067
+  },
+  {
+    "Year": 2012,
+    "PopulationGrowth": 36,
+    "PurchaseGrowth": 1591
+  }
+]

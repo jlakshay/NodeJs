@@ -67,12 +67,12 @@ var svg = d3.select("body").append("svg")
 d3.json("json/Population.json", function(error, data) {
 
     data.forEach(function(d) {
-        d.country = d.country;
+        d.Country = d.Country;
         d.Population = +d.Population;
     });
   
   // scale the range of the data
-  x.domain(data.map(function(d) { return d.country; }));
+  x.domain(data.map(function(d) { return d.Country; }));
   y.domain([0, d3.max(data, function(d) { return d.Population; })]);
 
   // add axis
@@ -102,25 +102,23 @@ d3.json("json/Population.json", function(error, data) {
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.country); })
+      .attr("x", function(d) { return x(d.Country); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.Population); })
       .attr("height", function(d) { return height - y(d.Population); });
 
 });
-
 </script>
-
-<a href="./html/gdp.html">
+<a href="html/gdp.html">
         <button type="button" >Gdp 2013</button>
     </a><br>
-    <a href="./html/Purchase.html">
+    <a href="html/Purchase.html">
         <button type="button" >Purchase 2013</button>
     </a><br>
-    <a href="./html/Growth.html">
+    <a href="html/Growth.html">
         <button type="button" >Population and Purchase Growth</button>
     </a>
-    <a href="./html/aggregate.html">
+    <a href="html/aggregate.html">
         <button type="button" >Population and gdp aggregate by continents</button>
     </a>
 

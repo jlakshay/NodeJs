@@ -1,0 +1,82 @@
+[
+  {
+    "Country": "Argentina",
+    "PurchasePower": 931
+  },
+  {
+    "Country": "Australia",
+    "PurchasePower": 1053
+  },
+  {
+    "Country": "Brazil",
+    "PurchasePower": 3218
+  },
+  {
+    "Country": "Canada",
+    "PurchasePower": 1532
+  },
+  {
+    "Country": "China",
+    "PurchasePower": 16585
+  },
+  {
+    "Country": "France",
+    "PurchasePower": 25544
+  },
+  {
+    "Country": "Germany",
+    "PurchasePower": 3630
+  },
+  {
+    "Country": "India",
+    "PurchasePower": 6796
+  },
+  {
+    "Country": "Indonesia",
+    "PurchasePower": 2516
+  },
+  {
+    "Country": "Italy",
+    "PurchasePower": 2109
+  },
+  {
+    "Country": "Japan",
+    "PurchasePower": 4694
+  },
+  {
+    "Country": "Mexico",
+    "PurchasePower": 2069
+  },
+  {
+    "Country": "Russia",
+    "PurchasePower": 3498
+  },
+  {
+    "Country": "Saudi Arabia",
+    "PurchasePower": 1530
+  },
+  {
+    "Country": "South Africa",
+    "PurchasePower": 685
+  },
+  {
+    "Country": "Republic of Korea",
+    "PurchasePower": 1698
+  },
+  {
+    "Country": "Turkey",
+    "PurchasePower": 1448
+  },
+  {
+    "Country": "United Kingdom",
+    "PurchasePower": 2454
+  },
+  {
+    "Country": "USA",
+    "PurchasePower": 16663
+  },
+  {
+    "Country": "European Union",
+    "PurchasePower": 18078
+  }
+]

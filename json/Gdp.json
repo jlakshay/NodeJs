@@ -1,0 +1,82 @@
+[
+  {
+    "Country": "Argentina",
+    "GDP": 622
+  },
+  {
+    "Country": "Australia",
+    "GDP": 1497
+  },
+  {
+    "Country": "Brazil",
+    "GDP": 2391
+  },
+  {
+    "Country": "Canada",
+    "GDP": 1838
+  },
+  {
+    "Country": "China",
+    "GDP": 9490
+  },
+  {
+    "Country": "France",
+    "GDP": 2811
+  },
+  {
+    "Country": "Germany",
+    "GDP": 3746
+  },
+  {
+    "Country": "India",
+    "GDP": 1875
+  },
+  {
+    "Country": "Indonesia",
+    "GDP": 912
+  },
+  {
+    "Country": "Italy",
+    "GDP": 2137
+  },
+  {
+    "Country": "Japan",
+    "GDP": 4919
+  },
+  {
+    "Country": "Mexico",
+    "GDP": 1261
+  },
+  {
+    "Country": "Russia",
+    "GDP": 2079
+  },
+  {
+    "Country": "Saudi Arabia",
+    "GDP": 744
+  },
+  {
+    "Country": "South Africa",
+    "GDP": 366
+  },
+  {
+    "Country": "Republic of Korea",
+    "GDP": 1305
+  },
+  {
+    "Country": "Turkey",
+    "GDP": 823
+  },
+  {
+    "Country": "United Kingdom",
+    "GDP": 2678
+  },
+  {
+    "Country": "USA",
+    "GDP": 16663
+  },
+  {
+    "Country": "European Union",
+    "GDP": 17990
+  }
+]

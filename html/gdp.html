@@ -64,16 +64,16 @@ var svg = d3.select("body").append("svg")
 
 
 // load the data
-d3.json("../json/gdp.json", function(error, data) {
+d3.json("../json/Gdp.json", function(error, data) {
 
     data.forEach(function(d) {
-        d.country = d.country;
-        d.gdp = +d.gdp;
+        d.Country = d.Country;
+        d.GDP = +d.GDP;
     });
   
   // scale the range of the data
-  x.domain(data.map(function(d) { return d.country; }));
-  y.domain([0, d3.max(data, function(d) { return d.gdp; })]);
+  x.domain(data.map(function(d) { return d.Country; }));
+  y.domain([0, d3.max(data, function(d) { return d.GDP; })]);
 
   // add axis
   svg.append("g")
@@ -94,7 +94,7 @@ d3.json("../json/gdp.json", function(error, data) {
       .attr("y", 5)
       .attr("dy", ".71em")
       .style("text-anchor", "end")
-      .text("GDP Billions (USD) 2013");
+      .text("Population (Millions) 2013");
 
 
   // Add bar chart
@@ -102,14 +102,14 @@ d3.json("../json/gdp.json", function(error, data) {
       .data(data)
     .enter().append("rect")
       .attr("class", "bar")
-      .attr("x", function(d) { return x(d.country); })
+      .attr("x", function(d) { return x(d.Country); })
       .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.gdp); })
-      .attr("height", function(d) { return height - y(d.gdp); });
+      .attr("y", function(d) { return y(d.GDP); })
+      .attr("height", function(d) { return height - y(d.GDP); });
 
 });
-
 </script>
+
 
 </body>
 </html>
